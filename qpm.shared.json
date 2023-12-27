@@ -1,0 +1,73 @@
+{
+  "config": {
+    "sharedDir": "include",
+    "dependenciesDir": "extern",
+    "info": {
+      "name": "bs-cordl",
+      "id": "bs-cordl",
+      "version": "0.1.0",
+      "url": "https://github.com/QuestPackageManager/bs-cordl",
+      "additionalData": {
+        "headersOnly": true,
+        "compileOptions": {
+          "includePaths": [
+            "include"
+          ],
+          "cppFeatures": [],
+          "cppFlags": [
+            "-DNEED_UNSAFE_CSHARP",
+            "-fdeclspec",
+            "-DUNITY_2021"
+          ]
+        }
+      }
+    },
+    "dependencies": [
+      {
+        "id": "beatsaber-hook",
+        "versionRange": "^5.0.0",
+        "additionalData": {}
+      },
+      {
+        "id": "libil2cpp",
+        "versionRange": "^0.3.0",
+        "additionalData": {}
+      }
+    ],
+    "workspace": null
+  },
+  "restoredDependencies": [
+    {
+      "dependency": {
+        "id": "libil2cpp",
+        "versionRange": "=0.3.1",
+        "additionalData": {
+          "headersOnly": true
+        }
+      },
+      "version": "0.3.1"
+    },
+    {
+      "dependency": {
+        "id": "beatsaber-hook",
+        "versionRange": "=5.0.0",
+        "additionalData": {
+          "soLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v0.5.8/libbeatsaber-hook.so",
+          "debugSoLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v0.5.8/debug_libbeatsaber-hook.so",
+          "branchName": "master"
+        }
+      },
+      "version": "5.0.0"
+    },
+    {
+      "dependency": {
+        "id": "scotland2",
+        "versionRange": "=0.1.3",
+        "additionalData": {
+          "overrideSoName": "libsl2.so"
+        }
+      },
+      "version": "0.1.3"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+name: NDK build
+
+on:
+  push:
+    tags:
+      - 'v*'
+    branches:
+      - main
+      - dev/*
+      - feat/*
+    paths-ignore:
+      - '**.yml'
+      - '!.github/workflows/build-ndk.yml'
+      - '!.github/actions/canary-ndk/action.yml'
+      - '**.md'
+      - '**.json'
+      - '!qpm.json'
+      - '!qpm.shared.json'
+      - '.gitignore'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  # test if the pushed files compile
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          lfs: true
+
+      - uses: seanmiddleditch/gha-setup-ninja@v3
+
+      - name: Setup Canary NDK
+        id: setup-ndk
+        uses: ./.github/actions/canary-ndk
+
+      - name: Create ndkpath.txt
+        run: |
+          echo ${{ steps.setup-ndk.outputs.path }} > ${GITHUB_WORKSPACE}/ndkpath.txt
+          cat ${GITHUB_WORKSPACE}/ndkpath.txt
+
+      - name: Setup qpm for regular build
+        if: ${{ !startsWith(github.ref, 'refs/tags/v') }}
+        uses: Fernthedev/qpm-action@main
+        with:
+          workflow_token: ${{ secrets.GITHUB_TOKEN }}
+          restore: true
+          cache: false
+          publish: false
+
+      - name: Build
+        run: |
+          cd ${GITHUB_WORKSPACE}
+          qpm s build
+
+  publish:
+    runs-on: ubuntu-latest
+
+    # if build was successful and a tag was pushed, we release
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          lfs: true
+
+      - name: Extract version
+        id: version
+        run: |
+          echo "TAG=${GITHUB_REF#refs/tags/}" >> ${GITHUB_OUTPUT}
+          echo "VERSION=${GITHUB_REF#refs/tags/v}" >> ${GITHUB_OUTPUT}
+
+      - name: Setup qpm for release
+        uses: Fernthedev/qpm-action@main
+        with:
+          workflow_token: ${{ secrets.GITHUB_TOKEN }}
+          restore: true
+          cache: false
+          publish: true
+          publish_token: ${{ secrets.QPM_KEY }}
+          version: ${{ steps.version.outputs.VERSION }}
+          tag: ${{ steps.version.outputs.TAG }}
+          qpm_release_bin: false
+          qpm_debug_bin: false
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          generate_release_notes: true
