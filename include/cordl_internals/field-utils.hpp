@@ -75,7 +75,7 @@ template <::il2cpp_utils::il2cpp_reference_type T, internal::NTTPString name, au
   } else if constexpr (il2cpp_utils::il2cpp_reference_type_wrapper<T>) {
     return T(val);
   } else {
-    static_assert(false, "This code branch should never be compiled, something went wrong!");
+    return {};
   }
 }
 
