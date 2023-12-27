@@ -1,0 +1,3 @@
+#pragma once
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509SubjectKeyIdentifierHashAlgorithm_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509SubjectKeyIdentifierHashAlgorithm_impl.hpp"

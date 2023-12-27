@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__SliderHapticFeedbackInteractionEffect_def.hpp"
+#include "GlobalNamespace/zzzz__SliderHapticFeedbackInteractionEffect_impl.hpp"

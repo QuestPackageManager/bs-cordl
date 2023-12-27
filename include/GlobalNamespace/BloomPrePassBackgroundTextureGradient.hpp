@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_impl.hpp"

@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__OculusXPlatformAccessTokenRequestOperation_def.hpp"
+#include "GlobalNamespace/zzzz__OculusXPlatformAccessTokenRequestOperation_impl.hpp"

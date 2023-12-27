@@ -1,0 +1,89 @@
+#pragma once
+#include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
+#include "UnityEngine/Timeline/zzzz__AudioMixerProperties_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Timeline::AudioMixerProperties.PrepareFrame
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AudioMixerProperties::*)(
+    ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::AudioMixerProperties::PrepareFrame)> {
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x2c61ad0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AudioMixerProperties*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AudioMixerProperties*>::get(), 19));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Timeline::AudioMixerProperties._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AudioMixerProperties::*)()>(&::UnityEngine::Timeline::AudioMixerProperties::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x2c61d04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AudioMixerProperties*>::get(), ".ctor",
+                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+constexpr float_t& UnityEngine::Timeline::AudioMixerProperties::__get_volume() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___volume;
+}
+constexpr float_t const& UnityEngine::Timeline::AudioMixerProperties::__get_volume() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___volume;
+}
+constexpr void UnityEngine::Timeline::AudioMixerProperties::__set_volume(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  this->___volume = value;
+}
+constexpr float_t& UnityEngine::Timeline::AudioMixerProperties::__get_stereoPan() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___stereoPan;
+}
+constexpr float_t const& UnityEngine::Timeline::AudioMixerProperties::__get_stereoPan() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___stereoPan;
+}
+constexpr void UnityEngine::Timeline::AudioMixerProperties::__set_stereoPan(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  this->___stereoPan = value;
+}
+constexpr float_t& UnityEngine::Timeline::AudioMixerProperties::__get_spatialBlend() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___spatialBlend;
+}
+constexpr float_t const& UnityEngine::Timeline::AudioMixerProperties::__get_spatialBlend() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___spatialBlend;
+}
+constexpr void UnityEngine::Timeline::AudioMixerProperties::__set_spatialBlend(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  this->___spatialBlend = value;
+}
+inline void UnityEngine::Timeline::AudioMixerProperties::PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AudioMixerProperties*>::get(), "PrepareFrame", std::vector<Il2CppClass*>{},
+                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::Playable>::get(),
+                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::FrameData>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playable, info);
+}
+inline ::UnityEngine::Timeline::AudioMixerProperties* UnityEngine::Timeline::AudioMixerProperties::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::Timeline::AudioMixerProperties*>());
+}
+inline void UnityEngine::Timeline::AudioMixerProperties::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AudioMixerProperties*>::get(), ".ctor",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Timeline::AudioMixerProperties::AudioMixerProperties() {}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

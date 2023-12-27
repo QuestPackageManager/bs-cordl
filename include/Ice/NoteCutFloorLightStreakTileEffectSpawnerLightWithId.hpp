@@ -1,0 +1,3 @@
+#pragma once
+#include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawnerLightWithId_def.hpp"
+#include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawnerLightWithId_impl.hpp"

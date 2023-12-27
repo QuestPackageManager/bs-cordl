@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerLobbyCenterStageLayoutAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyCenterStageLayoutAnimator_impl.hpp"

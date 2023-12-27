@@ -1,0 +1,54 @@
+#pragma once
+#include "UnityEngine/UIElements/zzzz__UxmlTraits_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlRootElementTraits_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UxmlRootElementTraits._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlRootElementTraits::*)()>(
+    &::UnityEngine::UIElements::UxmlRootElementTraits::_ctor)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x2e0df94;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlRootElementTraits*>::get(),
+                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::UxmlRootElementTraits::__get_m_Name() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___m_Name;
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& UnityEngine::UIElements::UxmlRootElementTraits::__get_m_Name() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___m_Name;
+}
+constexpr void UnityEngine::UIElements::UxmlRootElementTraits::__set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::UxmlRootElementTraits::__get_m_Class() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___m_Class;
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& UnityEngine::UIElements::UxmlRootElementTraits::__get_m_Class() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->___m_Class;
+}
+constexpr void UnityEngine::UIElements::UxmlRootElementTraits::__set_m_Class(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Class)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::UnityEngine::UIElements::UxmlRootElementTraits* UnityEngine::UIElements::UxmlRootElementTraits::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::UIElements::UxmlRootElementTraits*>());
+}
+inline void UnityEngine::UIElements::UxmlRootElementTraits::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlRootElementTraits*>::get(), ".ctor",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::UxmlRootElementTraits::UxmlRootElementTraits() {}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerInGameMenuViewController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerInGameMenuViewController_impl.hpp"

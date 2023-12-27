@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_impl.hpp"

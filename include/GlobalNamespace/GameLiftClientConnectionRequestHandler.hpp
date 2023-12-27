@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__GameLiftClientConnectionRequestHandler_def.hpp"
+#include "GlobalNamespace/zzzz__GameLiftClientConnectionRequestHandler_impl.hpp"

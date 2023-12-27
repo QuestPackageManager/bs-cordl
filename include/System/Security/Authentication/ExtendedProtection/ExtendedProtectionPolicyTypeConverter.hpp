@@ -1,0 +1,3 @@
+#pragma once
+#include "System/Security/Authentication/ExtendedProtection/zzzz__ExtendedProtectionPolicyTypeConverter_def.hpp"
+#include "System/Security/Authentication/ExtendedProtection/zzzz__ExtendedProtectionPolicyTypeConverter_impl.hpp"

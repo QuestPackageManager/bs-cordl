@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BloomPrePassDoubleKawaseBlurTextureEffectSO_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassDoubleKawaseBlurTextureEffectSO_impl.hpp"

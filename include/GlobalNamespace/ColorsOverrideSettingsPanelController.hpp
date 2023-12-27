@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__ColorsOverrideSettingsPanelController_def.hpp"
+#include "GlobalNamespace/zzzz__ColorsOverrideSettingsPanelController_impl.hpp"

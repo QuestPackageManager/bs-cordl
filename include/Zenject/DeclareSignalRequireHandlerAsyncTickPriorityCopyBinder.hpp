@@ -1,0 +1,3 @@
+#pragma once
+#include "Zenject/zzzz__DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder_def.hpp"
+#include "Zenject/zzzz__DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder_impl.hpp"

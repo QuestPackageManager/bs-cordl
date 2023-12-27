@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BeatmapDataObstaclesAndBombsTransform_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataObstaclesAndBombsTransform_impl.hpp"

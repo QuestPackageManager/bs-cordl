@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__DeeplinkManagerToDestinationRequestManagerAdapter_def.hpp"
+#include "GlobalNamespace/zzzz__DeeplinkManagerToDestinationRequestManagerAdapter_impl.hpp"

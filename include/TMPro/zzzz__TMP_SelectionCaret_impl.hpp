@@ -1,0 +1,68 @@
+#pragma once
+#include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
+#include "TMPro/zzzz__TMP_SelectionCaret_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+//  Writing Method size for method: ::TMPro::TMP_SelectionCaret.Cull
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SelectionCaret::*)(::UnityEngine::Rect, bool)>(&::TMPro::TMP_SelectionCaret::Cull)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x2c3faf4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), 59));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_SelectionCaret.UpdateGeometry
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SelectionCaret::*)()>(&::TMPro::TMP_SelectionCaret::UpdateGeometry)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2c3fbc4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), 41));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_SelectionCaret._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SelectionCaret::*)()>(&::TMPro::TMP_SelectionCaret::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2c3fbc8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), ".ctor",
+                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+inline void TMPro::TMP_SelectionCaret::Cull(::UnityEngine::Rect clipRect, bool validRect) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), "Cull", std::vector<Il2CppClass*>{},
+      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, clipRect, validRect);
+}
+inline void TMPro::TMP_SelectionCaret::UpdateGeometry() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), "UpdateGeometry",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::TMPro::TMP_SelectionCaret* TMPro::TMP_SelectionCaret::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::New<::TMPro::TMP_SelectionCaret*>());
+}
+inline void TMPro::TMP_SelectionCaret::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), ".ctor",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::TMPro::TMP_SelectionCaret::TMP_SelectionCaret() {}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

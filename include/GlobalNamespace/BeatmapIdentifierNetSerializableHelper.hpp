@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializableHelper_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializableHelper_impl.hpp"

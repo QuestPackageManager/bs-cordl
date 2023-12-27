@@ -1,0 +1,78 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/zzzz__InputBindingComposite_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(InputBindingComposite_1)
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem {
+struct InputBindingCompositeContext;
+}
+// Forward declare root types
+namespace UnityEngine::InputSystem {
+template <typename TValue> class InputBindingComposite_1;
+}
+// Write type traits
+MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::InputBindingComposite_1);
+// Type: UnityEngine.InputSystem::InputBindingComposite`1
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::InputSystem {
+// cpp template
+template <typename TValue>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6189))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6190))
+// CS Name: ::UnityEngine.InputSystem::InputBindingComposite`1<TValue>*
+class CORDL_TYPE InputBindingComposite_1 : public ::UnityEngine::InputSystem::InputBindingComposite {
+public:
+  // Declarations
+  __declspec(property(get = get_valueType))::System::Type* valueType;
+
+  __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
+
+  /// @brief Method get_valueType addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline ::System::Type* get_valueType();
+
+  /// @brief Method get_valueSizeInBytes addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline int32_t get_valueSizeInBytes();
+
+  /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline TValue ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+
+  /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline void ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
+
+  /// @brief Method ReadValueAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+
+  static inline ::UnityEngine::InputSystem::InputBindingComposite_1<TValue>* New_ctor();
+
+  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  inline void _ctor();
+
+  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InputBindingComposite_1(InputBindingComposite_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InputBindingComposite_1(InputBindingComposite_1 const&) = delete;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputBindingComposite_1();
+
+public:
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::InputSystem
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::InputBindingComposite_1, "UnityEngine.InputSystem", "InputBindingComposite`1");

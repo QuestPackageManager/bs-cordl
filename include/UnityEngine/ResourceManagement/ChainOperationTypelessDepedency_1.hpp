@@ -1,0 +1,3 @@
+#pragma once
+#include "UnityEngine/ResourceManagement/zzzz__ChainOperationTypelessDepedency_1_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ChainOperationTypelessDepedency_1_impl.hpp"

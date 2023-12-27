@@ -1,0 +1,3 @@
+#pragma once
+#include "UnityEngine/Experimental/Rendering/zzzz__ScriptableRuntimeReflectionSystemSettings_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__ScriptableRuntimeReflectionSystemSettings_impl.hpp"

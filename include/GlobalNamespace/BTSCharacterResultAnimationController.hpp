@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BTSCharacterResultAnimationController_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacterResultAnimationController_impl.hpp"

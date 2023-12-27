@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BeatmapObjectExecutionRatingsRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectExecutionRatingsRecorder_impl.hpp"

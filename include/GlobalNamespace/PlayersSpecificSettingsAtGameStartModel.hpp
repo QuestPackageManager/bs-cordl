@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_impl.hpp"

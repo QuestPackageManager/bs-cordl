@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_impl.hpp"

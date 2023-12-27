@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MainSettingsMenuViewControllersInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsMenuViewControllersInstaller_impl.hpp"

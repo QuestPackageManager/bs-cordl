@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerLocalPlayerDisconnectHelper_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalPlayerDisconnectHelper_impl.hpp"

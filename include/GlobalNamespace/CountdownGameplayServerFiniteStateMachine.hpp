@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__CountdownGameplayServerFiniteStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__CountdownGameplayServerFiniteStateMachine_impl.hpp"

@@ -1,0 +1,3 @@
+#pragma once
+#include "JetBrains/Annotations/zzzz__AspMvcAreaPartialViewLocationFormatAttribute_def.hpp"
+#include "JetBrains/Annotations/zzzz__AspMvcAreaPartialViewLocationFormatAttribute_impl.hpp"

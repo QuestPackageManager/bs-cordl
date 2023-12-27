@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
+#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_impl.hpp"

@@ -1,0 +1,39 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "Org/BouncyCastle/Asn1/Anssi/zzzz__AnssiObjectIdentifiers_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::*)()>(
+    &::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0xe62a6c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers*>::get(),
+                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+inline void Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::setStaticF_FRP256v1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value) {
+  ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "FRP256v1",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers*>::get>(
+      std::forward<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>(value));
+}
+inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::getStaticF_FRP256v1() {
+  return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "FRP256v1",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers*>::get>();
+}
+inline ::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers* Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers*>());
+}
+inline void Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers*>::get(),
+                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::AnssiObjectIdentifiers() {}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

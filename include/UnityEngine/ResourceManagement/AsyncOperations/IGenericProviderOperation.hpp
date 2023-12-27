@@ -1,0 +1,3 @@
+#pragma once
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_impl.hpp"

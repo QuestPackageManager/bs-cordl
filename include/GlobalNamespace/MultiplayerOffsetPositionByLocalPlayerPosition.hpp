@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_impl.hpp"

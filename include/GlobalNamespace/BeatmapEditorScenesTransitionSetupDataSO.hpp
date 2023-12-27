@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BeatmapEditorScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEditorScenesTransitionSetupDataSO_impl.hpp"

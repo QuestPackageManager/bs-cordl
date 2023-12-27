@@ -1,0 +1,3 @@
+#pragma once
+#include "UnityEngine/zzzz__TouchScreenKeyboard_InternalConstructorHelperArguments_def.hpp"
+#include "UnityEngine/zzzz__TouchScreenKeyboard_InternalConstructorHelperArguments_impl.hpp"

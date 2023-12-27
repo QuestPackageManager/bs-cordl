@@ -1,0 +1,131 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "HoudiniEngineUnity/zzzz__HAPI_PartType_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(HAPI_PartInfo)
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeOwner;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_GroupType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartType;
+}
+// Forward declare root types
+namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+// Write type traits
+MARK_VAL_T(::HoudiniEngineUnity::HAPI_PartInfo);
+// Type: HoudiniEngineUnity::HAPI_PartInfo
+// SizeInfo { instance_size: 48, native_size: 56, calculated_instance_size: 48, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace HoudiniEngineUnity {
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9710))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9740))
+// CS Name: ::HoudiniEngineUnity::HAPI_PartInfo
+struct CORDL_TYPE HAPI_PartInfo {
+public:
+  // Declarations
+  __declspec(property(get = get_pointAttributeCount, put = set_pointAttributeCount)) int32_t pointAttributeCount;
+
+  __declspec(property(get = get_primitiveAttributeCount, put = set_primitiveAttributeCount)) int32_t primitiveAttributeCount;
+
+  __declspec(property(get = get_vertexAttributeCount, put = set_vertexAttributeCount)) int32_t vertexAttributeCount;
+
+  __declspec(property(get = get_detailAttributeCount, put = set_detailAttributeCount)) int32_t detailAttributeCount;
+
+  /// @brief Method getElementCountByAttributeOwner addr 0x2191c48 size 0x4c virtual false final false
+  inline int32_t getElementCountByAttributeOwner(::HoudiniEngineUnity::HAPI_AttributeOwner owner);
+
+  /// @brief Method getElementCountByGroupType addr 0x2191c94 size 0x28 virtual false final false
+  inline int32_t getElementCountByGroupType(::HoudiniEngineUnity::HAPI_GroupType type);
+
+  /// @brief Method init addr 0x2186e68 size 0x58 virtual false final false
+  inline void init();
+
+  /// @brief Method get_pointAttributeCount addr 0x2191cbc size 0x34 virtual false final false
+  inline int32_t get_pointAttributeCount();
+
+  /// @brief Method set_pointAttributeCount addr 0x2191cf0 size 0x40 virtual false final false
+  inline void set_pointAttributeCount(int32_t value);
+
+  /// @brief Method get_primitiveAttributeCount addr 0x2191d30 size 0x34 virtual false final false
+  inline int32_t get_primitiveAttributeCount();
+
+  /// @brief Method set_primitiveAttributeCount addr 0x2191d64 size 0x40 virtual false final false
+  inline void set_primitiveAttributeCount(int32_t value);
+
+  /// @brief Method get_vertexAttributeCount addr 0x2191da4 size 0x30 virtual false final false
+  inline int32_t get_vertexAttributeCount();
+
+  /// @brief Method set_vertexAttributeCount addr 0x2191dd4 size 0x3c virtual false final false
+  inline void set_vertexAttributeCount(int32_t value);
+
+  /// @brief Method get_detailAttributeCount addr 0x2191e10 size 0x34 virtual false final false
+  inline int32_t get_detailAttributeCount();
+
+  /// @brief Method set_detailAttributeCount addr 0x2191e44 size 0x40 virtual false final false
+  inline void set_detailAttributeCount(int32_t value);
+
+  // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty:
+  // "::HoudiniEngineUnity::HAPI_PartType", modifiers: "", def_value: None }, CppParam { name: "faceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty:
+  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "attributeCounts", ty:
+  // "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "", def_value: None }, CppParam { name: "isInstanced", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instancedPartCount", ty:
+  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hasChanged", ty: "bool", modifiers: "",
+  // def_value: None }]
+  constexpr HAPI_PartInfo(int32_t id, int32_t nameSH, ::HoudiniEngineUnity::HAPI_PartType type, int32_t faceCount, int32_t vertexCount, int32_t pointCount,
+                          ::ArrayW<int32_t, ::Array<int32_t>*> attributeCounts, bool isInstanced, int32_t instancedPartCount, int32_t instanceCount, bool hasChanged) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_PartInfo();
+
+  /// @brief Field id, offset: 0x0, size: 0x4, def value: None
+  int32_t id;
+
+  /// @brief Field nameSH, offset: 0x4, size: 0x4, def value: None
+  int32_t nameSH;
+
+  /// @brief Field type, offset: 0x8, size: 0x4, def value: None
+  ::HoudiniEngineUnity::HAPI_PartType type;
+
+  /// @brief Field faceCount, offset: 0xc, size: 0x4, def value: None
+  int32_t faceCount;
+
+  /// @brief Field vertexCount, offset: 0x10, size: 0x4, def value: None
+  int32_t vertexCount;
+
+  /// @brief Field pointCount, offset: 0x14, size: 0x4, def value: None
+  int32_t pointCount;
+
+  /// @brief Field attributeCounts, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<int32_t, ::Array<int32_t>*> attributeCounts;
+
+  /// @brief Field isInstanced, offset: 0x20, size: 0x1, def value: None
+  bool isInstanced;
+
+  /// @brief Field instancedPartCount, offset: 0x24, size: 0x4, def value: None
+  int32_t instancedPartCount;
+
+  /// @brief Field instanceCount, offset: 0x28, size: 0x4, def value: None
+  int32_t instanceCount;
+
+  /// @brief Field hasChanged, offset: 0x2c, size: 0x1, def value: None
+  bool hasChanged;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PartInfo, 0x30>, "Size mismatch!");
+
+} // namespace HoudiniEngineUnity
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PartInfo, "HoudiniEngineUnity", "HAPI_PartInfo");

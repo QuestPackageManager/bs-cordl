@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerVerticalPlayerMovementManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerVerticalPlayerMovementManager_impl.hpp"

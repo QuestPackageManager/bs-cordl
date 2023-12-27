@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MissionSelectionNavigationController_def.hpp"
+#include "GlobalNamespace/zzzz__MissionSelectionNavigationController_impl.hpp"

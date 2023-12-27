@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSpectatingSpot_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSpectatingSpot_impl.hpp"

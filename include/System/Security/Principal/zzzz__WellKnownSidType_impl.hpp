@@ -1,0 +1,106 @@
+#pragma once
+#include "System/Security/Principal/zzzz__WellKnownSidType_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Security::Principal::WellKnownSidType::WellKnownSidType(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::System::Security::Principal::WellKnownSidType::WellKnownSidType() {}
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::NullSid{ static_cast<int32_t>(0x0) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WorldSid{ static_cast<int32_t>(0x1) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::LocalSid{ static_cast<int32_t>(0x2) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::CreatorOwnerSid{ static_cast<int32_t>(0x3) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::CreatorGroupSid{ static_cast<int32_t>(0x4) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::CreatorOwnerServerSid{ static_cast<int32_t>(0x5) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::CreatorGroupServerSid{ static_cast<int32_t>(0x6) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::NTAuthoritySid{ static_cast<int32_t>(0x7) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::DialupSid{ static_cast<int32_t>(0x8) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::NetworkSid{ static_cast<int32_t>(0x9) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BatchSid{ static_cast<int32_t>(0xa) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::InteractiveSid{ static_cast<int32_t>(0xb) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::ServiceSid{ static_cast<int32_t>(0xc) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AnonymousSid{ static_cast<int32_t>(0xd) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::ProxySid{ static_cast<int32_t>(0xe) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::EnterpriseControllersSid{ static_cast<int32_t>(0xf) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::SelfSid{ static_cast<int32_t>(0x10) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AuthenticatedUserSid{ static_cast<int32_t>(0x11) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::RestrictedCodeSid{ static_cast<int32_t>(0x12) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::TerminalServerSid{ static_cast<int32_t>(0x13) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::RemoteLogonIdSid{ static_cast<int32_t>(0x14) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::LogonIdsSid{ static_cast<int32_t>(0x15) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::LocalSystemSid{ static_cast<int32_t>(0x16) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::LocalServiceSid{ static_cast<int32_t>(0x17) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::NetworkServiceSid{ static_cast<int32_t>(0x18) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinDomainSid{ static_cast<int32_t>(0x19) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinAdministratorsSid{ static_cast<int32_t>(0x1a) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinUsersSid{ static_cast<int32_t>(0x1b) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinGuestsSid{ static_cast<int32_t>(0x1c) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinPowerUsersSid{ static_cast<int32_t>(0x1d) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinAccountOperatorsSid{ static_cast<int32_t>(0x1e) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinSystemOperatorsSid{ static_cast<int32_t>(0x1f) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinPrintOperatorsSid{ static_cast<int32_t>(0x20) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinBackupOperatorsSid{ static_cast<int32_t>(0x21) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinReplicatorSid{ static_cast<int32_t>(0x22) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinPreWindows2000CompatibleAccessSid{ static_cast<int32_t>(0x23) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinRemoteDesktopUsersSid{ static_cast<int32_t>(0x24) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinNetworkConfigurationOperatorsSid{ static_cast<int32_t>(0x25) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountAdministratorSid{ static_cast<int32_t>(0x26) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountGuestSid{ static_cast<int32_t>(0x27) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountKrbtgtSid{ static_cast<int32_t>(0x28) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountDomainAdminsSid{ static_cast<int32_t>(0x29) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountDomainUsersSid{ static_cast<int32_t>(0x2a) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountDomainGuestsSid{ static_cast<int32_t>(0x2b) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountComputersSid{ static_cast<int32_t>(0x2c) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountControllersSid{ static_cast<int32_t>(0x2d) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountCertAdminsSid{ static_cast<int32_t>(0x2e) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountSchemaAdminsSid{ static_cast<int32_t>(0x2f) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountEnterpriseAdminsSid{ static_cast<int32_t>(0x30) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountPolicyAdminsSid{ static_cast<int32_t>(0x31) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::AccountRasAndIasServersSid{ static_cast<int32_t>(0x32) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::NtlmAuthenticationSid{ static_cast<int32_t>(0x33) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::DigestAuthenticationSid{ static_cast<int32_t>(0x34) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::SChannelAuthenticationSid{ static_cast<int32_t>(0x35) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::ThisOrganizationSid{ static_cast<int32_t>(0x36) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::OtherOrganizationSid{ static_cast<int32_t>(0x37) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinIncomingForestTrustBuildersSid{ static_cast<int32_t>(0x38) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinPerformanceMonitoringUsersSid{ static_cast<int32_t>(0x39) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinPerformanceLoggingUsersSid{ static_cast<int32_t>(0x3a) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::BuiltinAuthorizationAccessSid{ static_cast<int32_t>(0x3b) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinBuiltinTerminalServerLicenseServersSid{ static_cast<int32_t>(0x3c) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::MaxDefined{ static_cast<int32_t>(0x3c) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinBuiltinDCOMUsersSid{ static_cast<int32_t>(0x3d) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinBuiltinIUsersSid{ static_cast<int32_t>(0x3e) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinIUserSid{ static_cast<int32_t>(0x3f) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinBuiltinCryptoOperatorsSid{ static_cast<int32_t>(0x40) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinUntrustedLabelSid{ static_cast<int32_t>(0x41) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinLowLabelSid{ static_cast<int32_t>(0x42) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinMediumLabelSid{ static_cast<int32_t>(0x43) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinHighLabelSid{ static_cast<int32_t>(0x44) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinSystemLabelSid{ static_cast<int32_t>(0x45) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinWriteRestrictedCodeSid{ static_cast<int32_t>(0x46) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCreatorOwnerRightsSid{ static_cast<int32_t>(0x47) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCacheablePrincipalsGroupSid{ static_cast<int32_t>(0x48) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinNonCacheablePrincipalsGroupSid{ static_cast<int32_t>(0x49) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinEnterpriseReadonlyControllersSid{ static_cast<int32_t>(0x4a) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinAccountReadonlyControllersSid{ static_cast<int32_t>(0x4b) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinBuiltinEventLogReadersGroup{ static_cast<int32_t>(0x4c) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinNewEnterpriseReadonlyControllersSid{ static_cast<int32_t>(0x4d) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinBuiltinCertSvcDComAccessGroup{ static_cast<int32_t>(0x4e) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinMediumPlusLabelSid{ static_cast<int32_t>(0x4f) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinLocalLogonSid{ static_cast<int32_t>(0x50) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinConsoleLogonSid{ static_cast<int32_t>(0x51) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinThisOrganizationCertificateSid{ static_cast<int32_t>(0x52) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinApplicationPackageAuthoritySid{ static_cast<int32_t>(0x53) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinBuiltinAnyPackageSid{ static_cast<int32_t>(0x54) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityInternetClientSid{ static_cast<int32_t>(0x55) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityInternetClientServerSid{ static_cast<int32_t>(0x56) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityPrivateNetworkClientServerSid{ static_cast<int32_t>(0x57) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityPicturesLibrarySid{ static_cast<int32_t>(0x58) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityVideosLibrarySid{ static_cast<int32_t>(0x59) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityMusicLibrarySid{ static_cast<int32_t>(0x5a) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityDocumentsLibrarySid{ static_cast<int32_t>(0x5b) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilitySharedUserCertificatesSid{ static_cast<int32_t>(0x5c) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityEnterpriseAuthenticationSid{ static_cast<int32_t>(0x5d) };
+constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityRemovableStorageSid{ static_cast<int32_t>(0x5e) };
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

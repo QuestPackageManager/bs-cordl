@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__ObjectsMovementRecorderEditorInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__ObjectsMovementRecorderEditorInstaller_impl.hpp"

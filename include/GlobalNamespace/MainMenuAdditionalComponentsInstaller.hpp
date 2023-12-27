@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MainMenuAdditionalComponentsInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__MainMenuAdditionalComponentsInstaller_impl.hpp"

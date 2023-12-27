@@ -1,0 +1,99 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cmath>
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(FontAssetCreationEditorSettings)
+// Forward declare root types
+namespace UnityEngine::TextCore::Text {
+struct FontAssetCreationEditorSettings;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings);
+// Type: UnityEngine.TextCore.Text::FontAssetCreationEditorSettings
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace UnityEngine::TextCore::Text {
+// Is value type: true
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13679))
+// CS Name: ::UnityEngine.TextCore.Text::FontAssetCreationEditorSettings
+struct CORDL_TYPE FontAssetCreationEditorSettings {
+public:
+  // Declarations
+  // Ctor Parameters [CppParam { name: "sourceFontFileGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam
+  // { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "padding", ty:
+  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "packingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "atlasWidth", ty: "int32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "atlasHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterSetSelectionMode", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "characterSequence", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "referencedFontAssetGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
+  // name: "referencedTextAssetGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "fontStyleModifier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "includeFontFeatures", ty:
+  // "bool", modifiers: "", def_value: None }]
+  constexpr FontAssetCreationEditorSettings(::StringW sourceFontFileGUID, int32_t faceIndex, int32_t pointSizeSamplingMode, int32_t pointSize, int32_t padding, int32_t packingMode, int32_t atlasWidth,
+                                            int32_t atlasHeight, int32_t characterSetSelectionMode, ::StringW characterSequence, ::StringW referencedFontAssetGUID, ::StringW referencedTextAssetGUID,
+                                            int32_t fontStyle, float_t fontStyleModifier, int32_t renderMode, bool includeFontFeatures) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FontAssetCreationEditorSettings();
+
+  /// @brief Field sourceFontFileGUID, offset: 0x0, size: 0x8, def value: None
+  ::StringW sourceFontFileGUID;
+
+  /// @brief Field faceIndex, offset: 0x8, size: 0x4, def value: None
+  int32_t faceIndex;
+
+  /// @brief Field pointSizeSamplingMode, offset: 0xc, size: 0x4, def value: None
+  int32_t pointSizeSamplingMode;
+
+  /// @brief Field pointSize, offset: 0x10, size: 0x4, def value: None
+  int32_t pointSize;
+
+  /// @brief Field padding, offset: 0x14, size: 0x4, def value: None
+  int32_t padding;
+
+  /// @brief Field packingMode, offset: 0x18, size: 0x4, def value: None
+  int32_t packingMode;
+
+  /// @brief Field atlasWidth, offset: 0x1c, size: 0x4, def value: None
+  int32_t atlasWidth;
+
+  /// @brief Field atlasHeight, offset: 0x20, size: 0x4, def value: None
+  int32_t atlasHeight;
+
+  /// @brief Field characterSetSelectionMode, offset: 0x24, size: 0x4, def value: None
+  int32_t characterSetSelectionMode;
+
+  /// @brief Field characterSequence, offset: 0x28, size: 0x8, def value: None
+  ::StringW characterSequence;
+
+  /// @brief Field referencedFontAssetGUID, offset: 0x30, size: 0x8, def value: None
+  ::StringW referencedFontAssetGUID;
+
+  /// @brief Field referencedTextAssetGUID, offset: 0x38, size: 0x8, def value: None
+  ::StringW referencedTextAssetGUID;
+
+  /// @brief Field fontStyle, offset: 0x40, size: 0x4, def value: None
+  int32_t fontStyle;
+
+  /// @brief Field fontStyleModifier, offset: 0x44, size: 0x4, def value: None
+  float_t fontStyleModifier;
+
+  /// @brief Field renderMode, offset: 0x48, size: 0x4, def value: None
+  int32_t renderMode;
+
+  /// @brief Field includeFontFeatures, offset: 0x4c, size: 0x1, def value: None
+  bool includeFontFeatures;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, 0x50>, "Size mismatch!");
+
+} // namespace UnityEngine::TextCore::Text
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, "UnityEngine.TextCore.Text", "FontAssetCreationEditorSettings");

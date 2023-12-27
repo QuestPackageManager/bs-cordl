@@ -1,0 +1,185 @@
+#pragma once
+#include "UnityEngine/InputSystem/zzzz__Sensor_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__GravitySensor_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
+//  Writing Method size for method: ::UnityEngine::InputSystem::GravitySensor.get_gravity
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::GravitySensor::*)()>(
+    &::UnityEngine::InputSystem::GravitySensor::get_gravity)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2aa7fcc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "get_gravity",
+                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::GravitySensor.set_gravity
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
+    &::UnityEngine::InputSystem::GravitySensor::set_gravity)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2aa7fd4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "set_gravity", std::vector<Il2CppClass*>{},
+                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::Vector3Control*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::GravitySensor.get_current
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::GravitySensor* (*)()>(&::UnityEngine::InputSystem::GravitySensor::get_current)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x2aa7fdc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "get_current",
+                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::GravitySensor.set_current
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::GravitySensor*)>(&::UnityEngine::InputSystem::GravitySensor::set_current)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x2aa8024;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "set_current", std::vector<Il2CppClass*>{},
+                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::GravitySensor*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::GravitySensor.FinishSetup
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)()>(&::UnityEngine::InputSystem::GravitySensor::FinishSetup)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x2aa8070;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::GravitySensor.MakeCurrent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)()>(&::UnityEngine::InputSystem::GravitySensor::MakeCurrent)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2aa80e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), 16));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::GravitySensor.OnRemoved
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)()>(&::UnityEngine::InputSystem::GravitySensor::OnRemoved)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x2aa813c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), 18));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::GravitySensor._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)()>(&::UnityEngine::InputSystem::GravitySensor::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2aa81c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), ".ctor",
+                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& UnityEngine::InputSystem::GravitySensor::__get__gravity_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->____gravity_k__BackingField;
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& UnityEngine::InputSystem::GravitySensor::__get__gravity_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  return this->____gravity_k__BackingField;
+}
+constexpr void UnityEngine::InputSystem::GravitySensor::__set__gravity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gravity_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void UnityEngine::InputSystem::GravitySensor::setStaticF__current_k__BackingField(::UnityEngine::InputSystem::GravitySensor* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::GravitySensor*, "<current>k__BackingField",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get>(
+      std::forward<::UnityEngine::InputSystem::GravitySensor*>(value));
+}
+inline ::UnityEngine::InputSystem::GravitySensor* UnityEngine::InputSystem::GravitySensor::getStaticF__current_k__BackingField() {
+  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::GravitySensor*, "<current>k__BackingField",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get>();
+}
+inline ::UnityEngine::InputSystem::Controls::Vector3Control* UnityEngine::InputSystem::GravitySensor::get_gravity() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "get_gravity",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Controls::Vector3Control*, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::GravitySensor::set_gravity(::UnityEngine::InputSystem::Controls::Vector3Control* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "set_gravity", std::vector<Il2CppClass*>{},
+                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::Vector3Control*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::InputSystem::GravitySensor* UnityEngine::InputSystem::GravitySensor::get_current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "get_current",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::GravitySensor*, false>(nullptr, ___internal_method);
+}
+inline void UnityEngine::InputSystem::GravitySensor::set_current(::UnityEngine::InputSystem::GravitySensor* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "set_current", std::vector<Il2CppClass*>{},
+                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::GravitySensor*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+}
+inline void UnityEngine::InputSystem::GravitySensor::FinishSetup() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "FinishSetup",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::GravitySensor::MakeCurrent() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "MakeCurrent",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::GravitySensor::OnRemoved() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "OnRemoved",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::GravitySensor* UnityEngine::InputSystem::GravitySensor::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::InputSystem::GravitySensor*>());
+}
+inline void UnityEngine::InputSystem::GravitySensor::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), ".ctor",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::InputSystem::GravitySensor::GravitySensor() {}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

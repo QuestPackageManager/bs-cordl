@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSegmentedControlController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSegmentedControlController_impl.hpp"

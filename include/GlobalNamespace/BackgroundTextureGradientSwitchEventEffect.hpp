@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BackgroundTextureGradientSwitchEventEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BackgroundTextureGradientSwitchEventEffect_impl.hpp"

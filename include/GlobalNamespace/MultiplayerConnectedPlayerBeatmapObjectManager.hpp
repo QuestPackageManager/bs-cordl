@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBeatmapObjectManager_impl.hpp"

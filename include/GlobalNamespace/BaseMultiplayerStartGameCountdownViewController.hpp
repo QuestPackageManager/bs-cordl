@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BaseMultiplayerStartGameCountdownViewController_def.hpp"
+#include "GlobalNamespace/zzzz__BaseMultiplayerStartGameCountdownViewController_impl.hpp"

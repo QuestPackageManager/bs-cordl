@@ -1,0 +1,3 @@
+#pragma once
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProviderLoadRequestOptions_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProviderLoadRequestOptions_impl.hpp"

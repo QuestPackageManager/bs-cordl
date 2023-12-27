@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerFacade_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerFacade_impl.hpp"

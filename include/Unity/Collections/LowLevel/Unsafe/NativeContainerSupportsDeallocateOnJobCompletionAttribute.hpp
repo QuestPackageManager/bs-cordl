@@ -1,0 +1,3 @@
+#pragma once
+#include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeContainerSupportsDeallocateOnJobCompletionAttribute_def.hpp"
+#include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeContainerSupportsDeallocateOnJobCompletionAttribute_impl.hpp"

@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_impl.hpp"

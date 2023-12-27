@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__SmoothCameraSmoothnessSettingsController_def.hpp"
+#include "GlobalNamespace/zzzz__SmoothCameraSmoothnessSettingsController_impl.hpp"

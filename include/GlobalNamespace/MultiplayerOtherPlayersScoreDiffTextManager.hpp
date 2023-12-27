@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerOtherPlayersScoreDiffTextManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerOtherPlayersScoreDiffTextManager_impl.hpp"

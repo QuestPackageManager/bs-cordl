@@ -1,0 +1,3 @@
+#pragma once
+#include "System/Threading/zzzz__CancellationTokenSource_LinkedNCancellationTokenSource_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_LinkedNCancellationTokenSource_impl.hpp"

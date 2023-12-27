@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__DoesNotRequireDomainReloadInitAttribute_def.hpp"
+#include "GlobalNamespace/zzzz__DoesNotRequireDomainReloadInitAttribute_impl.hpp"

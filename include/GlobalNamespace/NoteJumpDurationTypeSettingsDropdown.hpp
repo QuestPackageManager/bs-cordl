@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettingsDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettingsDropdown_impl.hpp"

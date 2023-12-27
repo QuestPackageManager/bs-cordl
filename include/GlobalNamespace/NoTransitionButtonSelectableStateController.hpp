@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__NoTransitionButtonSelectableStateController_def.hpp"
+#include "GlobalNamespace/zzzz__NoTransitionButtonSelectableStateController_impl.hpp"

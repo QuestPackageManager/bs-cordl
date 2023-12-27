@@ -1,0 +1,280 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(LayoutRebuilder)
+namespace UnityEngine {
+class Component;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::UI {
+class __LayoutRebuilder____c;
+}
+namespace UnityEngine::Pool {
+template <typename T> class ObjectPool_1;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace System {
+template <typename T> class Predicate_1;
+}
+// Forward declare root types
+namespace UnityEngine::UI {
+class LayoutRebuilder;
+}
+namespace UnityEngine::UI {
+class __LayoutRebuilder____c;
+}
+// Write type traits
+MARK_REF_PTR_T(::UnityEngine::UI::LayoutRebuilder);
+MARK_REF_PTR_T(::UnityEngine::UI::__LayoutRebuilder____c);
+// Type: ::<>c
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace UnityEngine::UI {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13092))
+// CS Name: ::LayoutRebuilder::<>c*
+class CORDL_TYPE __LayoutRebuilder____c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UI::__LayoutRebuilder____c* __9;
+
+  /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0))::System::Predicate_1<::UnityEngine::Component*>* __9__10_0;
+
+  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* __9__12_0;
+
+  /// @brief Field <>9__12_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__12_1, put = setStaticF___9__12_1))::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* __9__12_1;
+
+  /// @brief Field <>9__12_2, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__12_2, put = setStaticF___9__12_2))::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* __9__12_2;
+
+  /// @brief Field <>9__12_3, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__12_3, put = setStaticF___9__12_3))::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* __9__12_3;
+
+  static inline void setStaticF___9(::UnityEngine::UI::__LayoutRebuilder____c* value);
+
+  static inline ::UnityEngine::UI::__LayoutRebuilder____c* getStaticF___9();
+
+  static inline void setStaticF___9__10_0(::System::Predicate_1<::UnityEngine::Component*>* value);
+
+  static inline ::System::Predicate_1<::UnityEngine::Component*>* getStaticF___9__10_0();
+
+  static inline void setStaticF___9__12_0(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
+
+  static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* getStaticF___9__12_0();
+
+  static inline void setStaticF___9__12_1(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
+
+  static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* getStaticF___9__12_1();
+
+  static inline void setStaticF___9__12_2(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
+
+  static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* getStaticF___9__12_2();
+
+  static inline void setStaticF___9__12_3(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
+
+  static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* getStaticF___9__12_3();
+
+  static inline ::UnityEngine::UI::__LayoutRebuilder____c* New_ctor();
+
+  /// @brief Method .ctor addr 0x2d79218 size 0x8 virtual false final false
+  inline void _ctor();
+
+  /// @brief Method <.cctor>b__5_0 addr 0x2d79220 size 0x5c virtual false final false
+  inline ::UnityEngine::UI::LayoutRebuilder* __cctor_b__5_0();
+
+  /// @brief Method <.cctor>b__5_1 addr 0x2d7927c size 0x1c virtual false final false
+  inline void __cctor_b__5_1(::UnityEngine::UI::LayoutRebuilder* x);
+
+  /// @brief Method <StripDisabledBehavioursFromList>b__10_0 addr 0x2d79298 size 0x8c virtual false final false
+  inline bool _StripDisabledBehavioursFromList_b__10_0(::UnityEngine::Component* e);
+
+  /// @brief Method <Rebuild>b__12_0 addr 0x2d79324 size 0xbc virtual false final false
+  inline void _Rebuild_b__12_0(::UnityEngine::Component* e);
+
+  /// @brief Method <Rebuild>b__12_1 addr 0x2d793e0 size 0xbc virtual false final false
+  inline void _Rebuild_b__12_1(::UnityEngine::Component* e);
+
+  /// @brief Method <Rebuild>b__12_2 addr 0x2d7949c size 0xc0 virtual false final false
+  inline void _Rebuild_b__12_2(::UnityEngine::Component* e);
+
+  /// @brief Method <Rebuild>b__12_3 addr 0x2d7955c size 0xc0 virtual false final false
+  inline void _Rebuild_b__12_3(::UnityEngine::Component* e);
+
+  // Ctor Parameters [CppParam { name: "", ty: "__LayoutRebuilder____c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __LayoutRebuilder____c(__LayoutRebuilder____c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__LayoutRebuilder____c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __LayoutRebuilder____c(__LayoutRebuilder____c const&) = delete;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LayoutRebuilder____c();
+
+public:
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__LayoutRebuilder____c, 0x10>, "Size mismatch!");
+
+} // namespace UnityEngine::UI
+// Type: UnityEngine.UI::LayoutRebuilder
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace UnityEngine::UI {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13093))
+// CS Name: ::UnityEngine.UI::LayoutRebuilder*
+class CORDL_TYPE LayoutRebuilder : public ::System::Object {
+public:
+  // Declarations
+  using __c = ::UnityEngine::UI::__LayoutRebuilder____c;
+
+  /// @brief Field m_ToRebuild, offset 0x10, size 0x8
+  __declspec(property(get = __get_m_ToRebuild, put = __set_m_ToRebuild))::UnityEngine::RectTransform* m_ToRebuild;
+
+  /// @brief Field m_CachedHashFromTransform, offset 0x18, size 0x4
+  __declspec(property(get = __get_m_CachedHashFromTransform, put = __set_m_CachedHashFromTransform)) int32_t m_CachedHashFromTransform;
+
+  /// @brief Field s_Rebuilders, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_Rebuilders, put = setStaticF_s_Rebuilders))::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder*>* s_Rebuilders;
+
+  __declspec(property(get = get_transform))::UnityEngine::Transform* transform;
+
+  /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
+  constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
+
+  constexpr ::UnityEngine::RectTransform*& __get_m_ToRebuild();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_ToRebuild() const;
+
+  constexpr void __set_m_ToRebuild(::UnityEngine::RectTransform* value);
+
+  constexpr int32_t& __get_m_CachedHashFromTransform();
+
+  constexpr int32_t const& __get_m_CachedHashFromTransform() const;
+
+  constexpr void __set_m_CachedHashFromTransform(int32_t value);
+
+  static inline void setStaticF_s_Rebuilders(::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder*>* value);
+
+  static inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder*>* getStaticF_s_Rebuilders();
+
+  /// @brief Method Initialize addr 0x2d77edc size 0x34 virtual false final false
+  inline void Initialize(::UnityEngine::RectTransform* controller);
+
+  /// @brief Method Clear addr 0x2d77f10 size 0xc virtual false final false
+  inline void Clear();
+
+  /// @brief Method ReapplyDrivenProperties addr 0x2d780f4 size 0x54 virtual false final false
+  static inline void ReapplyDrivenProperties(::UnityEngine::RectTransform* driven);
+
+  /// @brief Method get_transform addr 0x2d78148 size 0x8 virtual true final true
+  inline ::UnityEngine::Transform* get_transform();
+
+  /// @brief Method IsDestroyed addr 0x2d78150 size 0x60 virtual true final true
+  inline bool IsDestroyed();
+
+  /// @brief Method StripDisabledBehavioursFromList addr 0x2d781b0 size 0xfc virtual false final false
+  static inline void StripDisabledBehavioursFromList(::System::Collections::Generic::List_1<::UnityEngine::Component*>* components);
+
+  /// @brief Method ForceRebuildLayoutImmediate addr 0x2d782ac size 0xdc virtual false final false
+  static inline void ForceRebuildLayoutImmediate(::UnityEngine::RectTransform* layoutRoot);
+
+  /// @brief Method Rebuild addr 0x2d78388 size 0x2b4 virtual true final true
+  inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
+
+  /// @brief Method PerformLayoutControl addr 0x2d7893c size 0x3d0 virtual false final false
+  inline void PerformLayoutControl(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
+
+  /// @brief Method PerformLayoutCalculation addr 0x2d7863c size 0x300 virtual false final false
+  inline void PerformLayoutCalculation(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
+
+  /// @brief Method MarkLayoutForRebuild addr 0x2d73630 size 0x3ec virtual false final false
+  static inline void MarkLayoutForRebuild(::UnityEngine::RectTransform* rect);
+
+  /// @brief Method ValidController addr 0x2d78d0c size 0x1f4 virtual false final false
+  static inline bool ValidController(::UnityEngine::RectTransform* layoutRoot, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* comps);
+
+  /// @brief Method MarkLayoutRootForRebuild addr 0x2d78f00 size 0x164 virtual false final false
+  static inline void MarkLayoutRootForRebuild(::UnityEngine::RectTransform* controller);
+
+  /// @brief Method LayoutComplete addr 0x2d79064 size 0x80 virtual true final true
+  inline void LayoutComplete();
+
+  /// @brief Method GraphicUpdateComplete addr 0x2d790e4 size 0x4 virtual true final true
+  inline void GraphicUpdateComplete();
+
+  /// @brief Method GetHashCode addr 0x2d790e8 size 0x8 virtual true final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method Equals addr 0x2d790f0 size 0x50 virtual true final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method ToString addr 0x2d79140 size 0x6c virtual true final false
+  inline ::StringW ToString();
+
+  static inline ::UnityEngine::UI::LayoutRebuilder* New_ctor();
+
+  /// @brief Method .ctor addr 0x2d791ac size 0x8 virtual false final false
+  inline void _ctor();
+
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  LayoutRebuilder(LayoutRebuilder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  LayoutRebuilder(LayoutRebuilder const&) = delete;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LayoutRebuilder();
+
+public:
+  /// @brief Field m_ToRebuild, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::RectTransform* ___m_ToRebuild;
+
+  /// @brief Field m_CachedHashFromTransform, offset: 0x18, size: 0x4, def value: None
+  int32_t ___m_CachedHashFromTransform;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::LayoutRebuilder, 0x20>, "Size mismatch!");
+
+} // namespace UnityEngine::UI
+NEED_NO_BOX(::UnityEngine::UI::LayoutRebuilder);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::LayoutRebuilder*, "UnityEngine.UI", "LayoutRebuilder");
+NEED_NO_BOX(::UnityEngine::UI::__LayoutRebuilder____c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__LayoutRebuilder____c*, "UnityEngine.UI", "LayoutRebuilder/<>c");

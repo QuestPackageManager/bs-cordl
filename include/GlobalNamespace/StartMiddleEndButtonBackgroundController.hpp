@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__StartMiddleEndButtonBackgroundController_def.hpp"
+#include "GlobalNamespace/zzzz__StartMiddleEndButtonBackgroundController_impl.hpp"

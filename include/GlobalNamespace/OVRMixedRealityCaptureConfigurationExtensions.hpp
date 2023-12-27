@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfigurationExtensions_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfigurationExtensions_impl.hpp"

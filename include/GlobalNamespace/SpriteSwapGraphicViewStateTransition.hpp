@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__SpriteSwapGraphicViewStateTransition_def.hpp"
+#include "GlobalNamespace/zzzz__SpriteSwapGraphicViewStateTransition_impl.hpp"

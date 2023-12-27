@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__DeactivateAnimatorOnInputFocusCapture_def.hpp"
+#include "GlobalNamespace/zzzz__DeactivateAnimatorOnInputFocusCapture_impl.hpp"

@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundParticleSystemRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundParticleSystemRenderer_impl.hpp"

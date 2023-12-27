@@ -1,0 +1,87 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(Destination)
+// Forward declare root types
+namespace Oculus::Platform::Models {
+class Destination;
+}
+// Write type traits
+MARK_REF_PTR_T(::Oculus::Platform::Models::Destination);
+// Type: Oculus.Platform.Models::Destination
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace Oculus::Platform::Models {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13431))
+// CS Name: ::Oculus.Platform.Models::Destination*
+class CORDL_TYPE Destination : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field ApiName, offset 0x10, size 0x8
+  __declspec(property(get = __get_ApiName, put = __set_ApiName))::StringW ApiName;
+
+  /// @brief Field DeeplinkMessage, offset 0x18, size 0x8
+  __declspec(property(get = __get_DeeplinkMessage, put = __set_DeeplinkMessage))::StringW DeeplinkMessage;
+
+  /// @brief Field DisplayName, offset 0x20, size 0x8
+  __declspec(property(get = __get_DisplayName, put = __set_DisplayName))::StringW DisplayName;
+
+  constexpr ::StringW& __get_ApiName();
+
+  constexpr ::StringW const& __get_ApiName() const;
+
+  constexpr void __set_ApiName(::StringW value);
+
+  constexpr ::StringW& __get_DeeplinkMessage();
+
+  constexpr ::StringW const& __get_DeeplinkMessage() const;
+
+  constexpr void __set_DeeplinkMessage(::StringW value);
+
+  constexpr ::StringW& __get_DisplayName();
+
+  constexpr ::StringW const& __get_DisplayName() const;
+
+  constexpr void __set_DisplayName(::StringW value);
+
+  static inline ::Oculus::Platform::Models::Destination* New_ctor(void* o);
+
+  /// @brief Method .ctor addr 0x27040b4 size 0x98 virtual false final false
+  inline void _ctor(void* o);
+
+  // Ctor Parameters [CppParam { name: "", ty: "Destination", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Destination(Destination&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "Destination", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Destination(Destination const&) = delete;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Destination();
+
+public:
+  /// @brief Field ApiName, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___ApiName;
+
+  /// @brief Field DeeplinkMessage, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___DeeplinkMessage;
+
+  /// @brief Field DisplayName, offset: 0x20, size: 0x8, def value: None
+  ::StringW ___DisplayName;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Destination, 0x28>, "Size mismatch!");
+
+} // namespace Oculus::Platform::Models
+NEED_NO_BOX(::Oculus::Platform::Models::Destination);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Destination*, "Oculus.Platform.Models", "Destination");

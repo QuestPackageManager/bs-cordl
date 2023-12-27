@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObservable_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObservable_impl.hpp"

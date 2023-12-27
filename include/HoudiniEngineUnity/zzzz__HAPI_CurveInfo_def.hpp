@@ -1,0 +1,72 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "HoudiniEngineUnity/zzzz__HAPI_CurveType_def.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(HAPI_CurveInfo)
+namespace HoudiniEngineUnity {
+struct HAPI_CurveType;
+}
+// Forward declare root types
+namespace HoudiniEngineUnity {
+struct HAPI_CurveInfo;
+}
+// Write type traits
+MARK_VAL_T(::HoudiniEngineUnity::HAPI_CurveInfo);
+// Type: HoudiniEngineUnity::HAPI_CurveInfo
+// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 41, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+namespace HoudiniEngineUnity {
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9704))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9749))
+// CS Name: ::HoudiniEngineUnity::HAPI_CurveInfo
+struct CORDL_TYPE HAPI_CurveInfo {
+public:
+  // Declarations
+  // Ctor Parameters [CppParam { name: "curveType", ty: "::HoudiniEngineUnity::HAPI_CurveType", modifiers: "", def_value: None }, CppParam { name: "curveCount", ty: "int32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "knotCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "isPeriodic", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRational", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "order", ty: "int32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "hasKnots", ty: "bool", modifiers: "", def_value: None }]
+  constexpr HAPI_CurveInfo(::HoudiniEngineUnity::HAPI_CurveType curveType, int32_t curveCount, int32_t vertexCount, int32_t knotCount, bool isPeriodic, bool isRational, int32_t order,
+                           bool hasKnots) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_CurveInfo();
+
+  /// @brief Field curveType, offset: 0x0, size: 0x4, def value: None
+  ::HoudiniEngineUnity::HAPI_CurveType curveType;
+
+  /// @brief Field curveCount, offset: 0x4, size: 0x4, def value: None
+  int32_t curveCount;
+
+  /// @brief Field vertexCount, offset: 0x8, size: 0x4, def value: None
+  int32_t vertexCount;
+
+  /// @brief Field knotCount, offset: 0xc, size: 0x4, def value: None
+  int32_t knotCount;
+
+  /// @brief Field isPeriodic, offset: 0x10, size: 0x1, def value: None
+  bool isPeriodic;
+
+  /// @brief Field isRational, offset: 0x11, size: 0x1, def value: None
+  bool isRational;
+
+  /// @brief Field order, offset: 0x14, size: 0x4, def value: None
+  int32_t order;
+
+  /// @brief Field hasKnots, offset: 0x18, size: 0x1, def value: None
+  bool hasKnots;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CurveInfo, 0x1c>, "Size mismatch!");
+
+} // namespace HoudiniEngineUnity
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CurveInfo, "HoudiniEngineUnity", "HAPI_CurveInfo");

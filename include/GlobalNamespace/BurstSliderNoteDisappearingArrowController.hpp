@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BurstSliderNoteDisappearingArrowController_def.hpp"
+#include "GlobalNamespace/zzzz__BurstSliderNoteDisappearingArrowController_impl.hpp"

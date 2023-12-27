@@ -1,0 +1,93 @@
+#pragma once
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Diagnostics/zzzz__Debugger_def.hpp"
+//  Writing Method size for method: ::System::Diagnostics::Debugger.IsLogging
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Diagnostics::Debugger::IsLogging)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2579e1c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(), "IsLogging",
+                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::Debugger.Log_icall
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ByRef<::StringW>, ByRef<::StringW>)>(&::System::Diagnostics::Debugger::Log_icall)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2579e20;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(), "Log_icall", std::vector<Il2CppClass*>{},
+        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::Debugger.Log
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::StringW, ::StringW)>(&::System::Diagnostics::Debugger::Log)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x2579e24;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(), "Log", std::vector<Il2CppClass*>{},
+        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::Debugger.NotifyOfCrossThreadDependency
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Diagnostics::Debugger::NotifyOfCrossThreadDependency)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x2579e90;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(),
+                                                                               "NotifyOfCrossThreadDependency", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+inline void System::Diagnostics::Debugger::setStaticF_DefaultCategory(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "DefaultCategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get>(std::forward<::StringW>(value));
+}
+inline ::StringW System::Diagnostics::Debugger::getStaticF_DefaultCategory() {
+  return ::cordl_internals::getStaticField<::StringW, "DefaultCategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get>();
+}
+inline bool System::Diagnostics::Debugger::IsLogging() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(), "IsLogging",
+                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+}
+inline void System::Diagnostics::Debugger::Log_icall(int32_t level, ByRef<::StringW> category, ByRef<::StringW> message) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(), "Log_icall", std::vector<Il2CppClass*>{},
+      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, level, category, message);
+}
+inline void System::Diagnostics::Debugger::Log(int32_t level, ::StringW category, ::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(), "Log", std::vector<Il2CppClass*>{},
+      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, level, category, message);
+}
+inline void System::Diagnostics::Debugger::NotifyOfCrossThreadDependency() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(),
+                                                                             "NotifyOfCrossThreadDependency", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::System::Diagnostics::Debugger::Debugger() {}
+#ifndef CORDL_NO_IMPL_INCLUDE
+#endif

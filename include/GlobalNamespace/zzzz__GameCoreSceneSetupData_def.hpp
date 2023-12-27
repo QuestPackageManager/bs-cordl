@@ -1,0 +1,49 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
+CORDL_MODULE_EXPORT(GameCoreSceneSetupData)
+// Forward declare root types
+namespace GlobalNamespace {
+class GameCoreSceneSetupData;
+}
+// Write type traits
+MARK_REF_PTR_T(::GlobalNamespace::GameCoreSceneSetupData);
+// Type: ::GameCoreSceneSetupData
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6049))
+// CS Name: ::GameCoreSceneSetupData*
+class CORDL_TYPE GameCoreSceneSetupData : public ::GlobalNamespace::SceneSetupData {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::GameCoreSceneSetupData* New_ctor();
+
+  /// @brief Method .ctor addr 0x231c40c size 0x8 virtual false final false
+  inline void _ctor();
+
+  // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetupData", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  GameCoreSceneSetupData(GameCoreSceneSetupData&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetupData", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  GameCoreSceneSetupData(GameCoreSceneSetupData const&) = delete;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameCoreSceneSetupData();
+
+public:
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameCoreSceneSetupData, 0x10>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::GameCoreSceneSetupData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameCoreSceneSetupData*, "", "GameCoreSceneSetupData");

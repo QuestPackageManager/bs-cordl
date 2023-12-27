@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__TrackLaneRingsPositionStepEffectSpawner_def.hpp"
+#include "GlobalNamespace/zzzz__TrackLaneRingsPositionStepEffectSpawner_impl.hpp"

@@ -1,0 +1,3 @@
+#pragma once
+#include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollectorSingleton_def.hpp"
+#include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollectorSingleton_impl.hpp"

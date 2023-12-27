@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__INoteControllerNoteDidFinishJumpEvent_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerNoteDidFinishJumpEvent_impl.hpp"

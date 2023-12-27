@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__FormattedFloatListSettingsValueController_def.hpp"
+#include "GlobalNamespace/zzzz__FormattedFloatListSettingsValueController_impl.hpp"

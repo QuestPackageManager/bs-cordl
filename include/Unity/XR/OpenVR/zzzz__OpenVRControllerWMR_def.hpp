@@ -1,0 +1,285 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
+CORDL_MODULE_EXPORT(OpenVRControllerWMR)
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Controls {
+class AxisControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector3Control;
+}
+// Forward declare root types
+namespace Unity::XR::OpenVR {
+class OpenVRControllerWMR;
+}
+// Write type traits
+MARK_REF_PTR_T(::Unity::XR::OpenVR::OpenVRControllerWMR);
+// Type: Unity.XR.OpenVR::OpenVRControllerWMR
+// SizeInfo { instance_size: 464, native_size: -1, calculated_instance_size: 464, calculated_native_size: 464, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace Unity::XR::OpenVR {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6116))
+// CS Name: ::Unity.XR.OpenVR::OpenVRControllerWMR*
+class CORDL_TYPE OpenVRControllerWMR : public ::UnityEngine::InputSystem::XR::XRController {
+public:
+  // Declarations
+  /// @brief Field <deviceVelocity>k__BackingField, offset 0x178, size 0x8
+  __declspec(property(get = __get__deviceVelocity_k__BackingField, put = __set__deviceVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
+
+  /// @brief Field <deviceAngularVelocity>k__BackingField, offset 0x180, size 0x8
+  __declspec(property(get = __get__deviceAngularVelocity_k__BackingField,
+                      put = __set__deviceAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField;
+
+  /// @brief Field <touchpadClick>k__BackingField, offset 0x188, size 0x8
+  __declspec(property(get = __get__touchpadClick_k__BackingField, put = __set__touchpadClick_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _touchpadClick_k__BackingField;
+
+  /// @brief Field <touchpadTouch>k__BackingField, offset 0x190, size 0x8
+  __declspec(property(get = __get__touchpadTouch_k__BackingField, put = __set__touchpadTouch_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _touchpadTouch_k__BackingField;
+
+  /// @brief Field <gripPressed>k__BackingField, offset 0x198, size 0x8
+  __declspec(property(get = __get__gripPressed_k__BackingField, put = __set__gripPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _gripPressed_k__BackingField;
+
+  /// @brief Field <triggerPressed>k__BackingField, offset 0x1a0, size 0x8
+  __declspec(property(get = __get__triggerPressed_k__BackingField, put = __set__triggerPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _triggerPressed_k__BackingField;
+
+  /// @brief Field <menu>k__BackingField, offset 0x1a8, size 0x8
+  __declspec(property(get = __get__menu_k__BackingField, put = __set__menu_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _menu_k__BackingField;
+
+  /// @brief Field <trigger>k__BackingField, offset 0x1b0, size 0x8
+  __declspec(property(get = __get__trigger_k__BackingField, put = __set__trigger_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _trigger_k__BackingField;
+
+  /// @brief Field <grip>k__BackingField, offset 0x1b8, size 0x8
+  __declspec(property(get = __get__grip_k__BackingField, put = __set__grip_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _grip_k__BackingField;
+
+  /// @brief Field <touchpad>k__BackingField, offset 0x1c0, size 0x8
+  __declspec(property(get = __get__touchpad_k__BackingField, put = __set__touchpad_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _touchpad_k__BackingField;
+
+  /// @brief Field <joystick>k__BackingField, offset 0x1c8, size 0x8
+  __declspec(property(get = __get__joystick_k__BackingField, put = __set__joystick_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _joystick_k__BackingField;
+
+  __declspec(property(get = get_deviceVelocity, put = set_deviceVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* deviceVelocity;
+
+  __declspec(property(get = get_deviceAngularVelocity, put = set_deviceAngularVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* deviceAngularVelocity;
+
+  __declspec(property(get = get_touchpadClick, put = set_touchpadClick))::UnityEngine::InputSystem::Controls::ButtonControl* touchpadClick;
+
+  __declspec(property(get = get_touchpadTouch, put = set_touchpadTouch))::UnityEngine::InputSystem::Controls::ButtonControl* touchpadTouch;
+
+  __declspec(property(get = get_gripPressed, put = set_gripPressed))::UnityEngine::InputSystem::Controls::ButtonControl* gripPressed;
+
+  __declspec(property(get = get_triggerPressed, put = set_triggerPressed))::UnityEngine::InputSystem::Controls::ButtonControl* triggerPressed;
+
+  __declspec(property(get = get_menu, put = set_menu))::UnityEngine::InputSystem::Controls::ButtonControl* menu;
+
+  __declspec(property(get = get_trigger, put = set_trigger))::UnityEngine::InputSystem::Controls::AxisControl* trigger;
+
+  __declspec(property(get = get_grip, put = set_grip))::UnityEngine::InputSystem::Controls::AxisControl* grip;
+
+  __declspec(property(get = get_touchpad, put = set_touchpad))::UnityEngine::InputSystem::Controls::Vector2Control* touchpad;
+
+  __declspec(property(get = get_joystick, put = set_joystick))::UnityEngine::InputSystem::Controls::Vector2Control* joystick;
+
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__deviceVelocity_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__deviceVelocity_k__BackingField() const;
+
+  constexpr void __set__deviceVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__deviceAngularVelocity_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__deviceAngularVelocity_k__BackingField() const;
+
+  constexpr void __set__deviceAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__touchpadClick_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__touchpadClick_k__BackingField() const;
+
+  constexpr void __set__touchpadClick_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__touchpadTouch_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__touchpadTouch_k__BackingField() const;
+
+  constexpr void __set__touchpadTouch_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__gripPressed_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__gripPressed_k__BackingField() const;
+
+  constexpr void __set__gripPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__triggerPressed_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__triggerPressed_k__BackingField() const;
+
+  constexpr void __set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__menu_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__menu_k__BackingField() const;
+
+  constexpr void __set__menu_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__trigger_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__trigger_k__BackingField() const;
+
+  constexpr void __set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__grip_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__grip_k__BackingField() const;
+
+  constexpr void __set__grip_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __get__touchpad_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __get__touchpad_k__BackingField() const;
+
+  constexpr void __set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __get__joystick_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __get__joystick_k__BackingField() const;
+
+  constexpr void __set__joystick_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  /// @brief Method get_deviceVelocity addr 0x2a33fc4 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
+
+  /// @brief Method set_deviceVelocity addr 0x2a33fcc size 0x8 virtual false final false
+  inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+
+  /// @brief Method get_deviceAngularVelocity addr 0x2a33fd4 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
+
+  /// @brief Method set_deviceAngularVelocity addr 0x2a33fdc size 0x8 virtual false final false
+  inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+
+  /// @brief Method get_touchpadClick addr 0x2a33fe4 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadClick();
+
+  /// @brief Method set_touchpadClick addr 0x2a33fec size 0x8 virtual false final false
+  inline void set_touchpadClick(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method get_touchpadTouch addr 0x2a33ff4 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadTouch();
+
+  /// @brief Method set_touchpadTouch addr 0x2a33ffc size 0x8 virtual false final false
+  inline void set_touchpadTouch(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method get_gripPressed addr 0x2a34004 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
+
+  /// @brief Method set_gripPressed addr 0x2a3400c size 0x8 virtual false final false
+  inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method get_triggerPressed addr 0x2a34014 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
+
+  /// @brief Method set_triggerPressed addr 0x2a3401c size 0x8 virtual false final false
+  inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method get_menu addr 0x2a34024 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu();
+
+  /// @brief Method set_menu addr 0x2a3402c size 0x8 virtual false final false
+  inline void set_menu(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method get_trigger addr 0x2a34034 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger();
+
+  /// @brief Method set_trigger addr 0x2a3403c size 0x8 virtual false final false
+  inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  /// @brief Method get_grip addr 0x2a34044 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
+
+  /// @brief Method set_grip addr 0x2a3404c size 0x8 virtual false final false
+  inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  /// @brief Method get_touchpad addr 0x2a34054 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
+
+  /// @brief Method set_touchpad addr 0x2a3405c size 0x8 virtual false final false
+  inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  /// @brief Method get_joystick addr 0x2a34064 size 0x8 virtual false final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_joystick();
+
+  /// @brief Method set_joystick addr 0x2a3406c size 0x8 virtual false final false
+  inline void set_joystick(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  /// @brief Method FinishSetup addr 0x2a34074 size 0x260 virtual true final false
+  inline void FinishSetup();
+
+  static inline ::Unity::XR::OpenVR::OpenVRControllerWMR* New_ctor();
+
+  /// @brief Method .ctor addr 0x2a342d4 size 0x8 virtual false final false
+  inline void _ctor();
+
+  // Ctor Parameters [CppParam { name: "", ty: "OpenVRControllerWMR", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OpenVRControllerWMR(OpenVRControllerWMR&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "OpenVRControllerWMR", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OpenVRControllerWMR(OpenVRControllerWMR const&) = delete;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OpenVRControllerWMR();
+
+public:
+  /// @brief Field <deviceVelocity>k__BackingField, offset: 0x178, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceVelocity_k__BackingField;
+
+  /// @brief Field <deviceAngularVelocity>k__BackingField, offset: 0x180, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceAngularVelocity_k__BackingField;
+
+  /// @brief Field <touchpadClick>k__BackingField, offset: 0x188, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____touchpadClick_k__BackingField;
+
+  /// @brief Field <touchpadTouch>k__BackingField, offset: 0x190, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____touchpadTouch_k__BackingField;
+
+  /// @brief Field <gripPressed>k__BackingField, offset: 0x198, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____gripPressed_k__BackingField;
+
+  /// @brief Field <triggerPressed>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____triggerPressed_k__BackingField;
+
+  /// @brief Field <menu>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::ButtonControl* ____menu_k__BackingField;
+
+  /// @brief Field <trigger>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::AxisControl* ____trigger_k__BackingField;
+
+  /// @brief Field <grip>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::AxisControl* ____grip_k__BackingField;
+
+  /// @brief Field <touchpad>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::Vector2Control* ____touchpad_k__BackingField;
+
+  /// @brief Field <joystick>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Controls::Vector2Control* ____joystick_k__BackingField;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Unity::XR::OpenVR::OpenVRControllerWMR, 0x1d0>, "Size mismatch!");
+
+} // namespace Unity::XR::OpenVR
+NEED_NO_BOX(::Unity::XR::OpenVR::OpenVRControllerWMR);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::OpenVR::OpenVRControllerWMR*, "Unity.XR.OpenVR", "OpenVRControllerWMR");

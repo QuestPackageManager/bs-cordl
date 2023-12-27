@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__StandardScoreSyncStateDeltaNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__StandardScoreSyncStateDeltaNetSerializable_impl.hpp"

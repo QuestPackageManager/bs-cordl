@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_impl.hpp"

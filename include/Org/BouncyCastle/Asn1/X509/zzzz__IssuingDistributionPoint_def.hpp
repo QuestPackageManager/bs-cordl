@@ -1,0 +1,208 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+CORDL_MODULE_EXPORT(IssuingDistributionPoint)
+namespace System::Text {
+class StringBuilder;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class ReasonFlags;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class DistributionPointName;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+// Forward declare root types
+namespace Org::BouncyCastle::Asn1::X509 {
+class IssuingDistributionPoint;
+}
+// Write type traits
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint);
+// Type: Org.BouncyCastle.Asn1.X509::IssuingDistributionPoint
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace Org::BouncyCastle::Asn1::X509 {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(367))
+// CS Name: ::Org.BouncyCastle.Asn1.X509::IssuingDistributionPoint*
+class CORDL_TYPE IssuingDistributionPoint : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+public:
+  // Declarations
+  /// @brief Field _distributionPoint, offset 0x10, size 0x8
+  __declspec(property(get = __get__distributionPoint, put = __set__distributionPoint))::Org::BouncyCastle::Asn1::X509::DistributionPointName* _distributionPoint;
+
+  /// @brief Field _onlyContainsUserCerts, offset 0x18, size 0x1
+  __declspec(property(get = __get__onlyContainsUserCerts, put = __set__onlyContainsUserCerts)) bool _onlyContainsUserCerts;
+
+  /// @brief Field _onlyContainsCACerts, offset 0x19, size 0x1
+  __declspec(property(get = __get__onlyContainsCACerts, put = __set__onlyContainsCACerts)) bool _onlyContainsCACerts;
+
+  /// @brief Field _onlySomeReasons, offset 0x20, size 0x8
+  __declspec(property(get = __get__onlySomeReasons, put = __set__onlySomeReasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* _onlySomeReasons;
+
+  /// @brief Field _indirectCRL, offset 0x28, size 0x1
+  __declspec(property(get = __get__indirectCRL, put = __set__indirectCRL)) bool _indirectCRL;
+
+  /// @brief Field _onlyContainsAttributeCerts, offset 0x29, size 0x1
+  __declspec(property(get = __get__onlyContainsAttributeCerts, put = __set__onlyContainsAttributeCerts)) bool _onlyContainsAttributeCerts;
+
+  /// @brief Field seq, offset 0x30, size 0x8
+  __declspec(property(get = __get_seq, put = __set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
+
+  __declspec(property(get = get_OnlyContainsUserCerts)) bool OnlyContainsUserCerts;
+
+  __declspec(property(get = get_OnlyContainsCACerts)) bool OnlyContainsCACerts;
+
+  __declspec(property(get = get_IsIndirectCrl)) bool IsIndirectCrl;
+
+  __declspec(property(get = get_OnlyContainsAttributeCerts)) bool OnlyContainsAttributeCerts;
+
+  __declspec(property(get = get_DistributionPoint))::Org::BouncyCastle::Asn1::X509::DistributionPointName* DistributionPoint;
+
+  __declspec(property(get = get_OnlySomeReasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* OnlySomeReasons;
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName*& __get__distributionPoint();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DistributionPointName*> const& __get__distributionPoint() const;
+
+  constexpr void __set__distributionPoint(::Org::BouncyCastle::Asn1::X509::DistributionPointName* value);
+
+  constexpr bool& __get__onlyContainsUserCerts();
+
+  constexpr bool const& __get__onlyContainsUserCerts() const;
+
+  constexpr void __set__onlyContainsUserCerts(bool value);
+
+  constexpr bool& __get__onlyContainsCACerts();
+
+  constexpr bool const& __get__onlyContainsCACerts() const;
+
+  constexpr void __set__onlyContainsCACerts(bool value);
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags*& __get__onlySomeReasons();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ReasonFlags*> const& __get__onlySomeReasons() const;
+
+  constexpr void __set__onlySomeReasons(::Org::BouncyCastle::Asn1::X509::ReasonFlags* value);
+
+  constexpr bool& __get__indirectCRL();
+
+  constexpr bool const& __get__indirectCRL() const;
+
+  constexpr void __set__indirectCRL(bool value);
+
+  constexpr bool& __get__onlyContainsAttributeCerts();
+
+  constexpr bool const& __get__onlyContainsAttributeCerts() const;
+
+  constexpr void __set__onlyContainsAttributeCerts(bool value);
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_seq();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_seq() const;
+
+  constexpr void __set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+
+  /// @brief Method GetInstance addr 0x119143c size 0x18 virtual false final false
+  static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+
+  /// @brief Method GetInstance addr 0x1191454 size 0x188 virtual false final false
+  static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint, bool onlyContainsUserCerts,
+                                                                                    bool onlyContainsCACerts, ::Org::BouncyCastle::Asn1::X509::ReasonFlags* onlySomeReasons, bool indirectCRL,
+                                                                                    bool onlyContainsAttributeCerts);
+
+  /// @brief Method .ctor addr 0x1191888 size 0x2f0 virtual false final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint, bool onlyContainsUserCerts, bool onlyContainsCACerts,
+                    ::Org::BouncyCastle::Asn1::X509::ReasonFlags* onlySomeReasons, bool indirectCRL, bool onlyContainsAttributeCerts);
+
+  static inline ::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method .ctor addr 0x11915dc size 0x2ac virtual false final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method get_OnlyContainsUserCerts addr 0x1191b78 size 0x8 virtual false final false
+  inline bool get_OnlyContainsUserCerts();
+
+  /// @brief Method get_OnlyContainsCACerts addr 0x1191b80 size 0x8 virtual false final false
+  inline bool get_OnlyContainsCACerts();
+
+  /// @brief Method get_IsIndirectCrl addr 0x1191b88 size 0x8 virtual false final false
+  inline bool get_IsIndirectCrl();
+
+  /// @brief Method get_OnlyContainsAttributeCerts addr 0x1191b90 size 0x8 virtual false final false
+  inline bool get_OnlyContainsAttributeCerts();
+
+  /// @brief Method get_DistributionPoint addr 0x1191b98 size 0x8 virtual false final false
+  inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* get_DistributionPoint();
+
+  /// @brief Method get_OnlySomeReasons addr 0x1191ba0 size 0x8 virtual false final false
+  inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_OnlySomeReasons();
+
+  /// @brief Method ToAsn1Object addr 0x1191ba8 size 0x8 virtual true final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  /// @brief Method ToString addr 0x1191bb0 size 0x284 virtual true final false
+  inline ::StringW ToString();
+
+  /// @brief Method appendObject addr 0x1191e34 size 0xf8 virtual false final false
+  inline void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
+
+  // Ctor Parameters [CppParam { name: "", ty: "IssuingDistributionPoint", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  IssuingDistributionPoint(IssuingDistributionPoint&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "IssuingDistributionPoint", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IssuingDistributionPoint(IssuingDistributionPoint const&) = delete;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IssuingDistributionPoint();
+
+public:
+  /// @brief Field _distributionPoint, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::X509::DistributionPointName* ____distributionPoint;
+
+  /// @brief Field _onlyContainsUserCerts, offset: 0x18, size: 0x1, def value: None
+  bool ____onlyContainsUserCerts;
+
+  /// @brief Field _onlyContainsCACerts, offset: 0x19, size: 0x1, def value: None
+  bool ____onlyContainsCACerts;
+
+  /// @brief Field _onlySomeReasons, offset: 0x20, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::X509::ReasonFlags* ____onlySomeReasons;
+
+  /// @brief Field _indirectCRL, offset: 0x28, size: 0x1, def value: None
+  bool ____indirectCRL;
+
+  /// @brief Field _onlyContainsAttributeCerts, offset: 0x29, size: 0x1, def value: None
+  bool ____onlyContainsAttributeCerts;
+
+  /// @brief Field seq, offset: 0x30, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Sequence* ___seq;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint, 0x38>, "Size mismatch!");
+
+} // namespace Org::BouncyCastle::Asn1::X509
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint*, "Org.BouncyCastle.Asn1.X509", "IssuingDistributionPoint");

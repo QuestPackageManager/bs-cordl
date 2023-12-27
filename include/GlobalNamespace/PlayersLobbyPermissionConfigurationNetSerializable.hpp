@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_impl.hpp"

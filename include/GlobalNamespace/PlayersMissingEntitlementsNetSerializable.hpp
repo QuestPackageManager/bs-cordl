@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__PlayersMissingEntitlementsNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersMissingEntitlementsNetSerializable_impl.hpp"

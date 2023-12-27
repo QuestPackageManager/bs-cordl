@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceYOffsetEvaluator_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceYOffsetEvaluator_impl.hpp"

@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRenderer_impl.hpp"
